@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Quicksand&display=swap');
+body{
+    font-family: 'Quicksand', sans-serif;
+    display: flex; 
+    flex-direction: column; 
+}
+
+@media  (min-width: 600px) {
+    .sub-title{
+        font-family: 'Playfair Display', serif;
+    }
+    .placeholder{
+        height: 11vh;
+        width: 100%;
+        background-color: white; 
+    }
+    #h-cont{
+        width: 100%;
+        height: 10vh;
+        border-bottom: #F2F4F4 1px solid; 
+        position: fixed; 
+        background-color: white; 
+        top: 0; 
+    }
+    #header{
+        height: 90%;
+        width: 80%; 
+        display: flex;
+        justify-content: space-between; 
+        flex-direction: row; 
+        margin: auto; 
+    }
+    #header-img{
+        height: 53%;
+        width: 30%;
+    }
+    #brand-text{
+        font-size: 2vw; 
+    }
+    .logo{
+        display: flex;
+        flex-direction: row;
+        width: 20%;  
+    }
+    .nav-link{
+        text-decoration: none; 
+        display: inline-block;
+        text-align: center; 
+        width: 33%; 
+        color: black; 
+    }
+    .nav-link:hover{
+        color: gray; 
+    }
+    #nav-bar{
+        width: 30%; 
+        display: flex; 
+        justify-content: space-evenly; 
+        align-items: center; 
+    }
+    #jumbotron{
+        height: 500px;
+        width: 100%; 
+        display: flex; 
+        flex-direction: row; 
+        justify-content: space-evenly; 
+    }
+    .sec{
+        width: 30%;
+        height: 100%;
+        /* border: red solid 1px;  */
+    }
+    #sec1{
+        background-image: url("img/lady.jpg"); 
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        background-position: center; 
+    }
+    #sec2{
+        background-image: url("img/lipstick.jpg"); 
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        background-position: center; 
+    
+    }
+    #sec3{
+        display: flex;
+        align-items: flex-start; 
+        flex-direction: column; 
+        justify-content: center;
+    }
+    #jumtxt{
+        font-size: 50px; 
+    }
+    #jsuntxt{
+        font-size: 18px;
+    }
+    .btn{
+        background-color: white; 
+        border: black 1.2px solid; 
+        color: black;
+    }
+    .btn-black{
+        background-color: black; 
+        border: 0; 
+        /* border: black 1.2px solid;  */
+        color: white;
+        height: 40px;
+        width: 150px; 
+        font-size: 20px; 
+        border-radius: 2px; 
+    }
+    .btn-black:hover{
+        color: black; 
+        background-color: white; 
+        border: 1px solid black; 
+        cursor: pointer;
+    }
+    input:focus{
+        outline: #F2F4F4; 
+    }
+    .btn:hover{
+        background-color: black; 
+        color: white; 
+        cursor: pointer;
+    }
+    .btn-long{
+        height: 50px;
+        width: 210px; 
+        font-size: 20px; 
+        border-radius: 2px; 
+    }
+    
+    .sub-title{
+        font-size: 30px;
+        font-weight: lighter; 
+        text-align: center; 
+        letter-spacing: 1px; 
+    }
+    #about, #product-vid, #contact{
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        flex-direction: column; 
+        border-bottom: 1px solid #F2F4F4; 
+        width: 90%;
+    }
+    #product-vid{
+        height: 500px; 
+    }
+    #about{
+        height: 300px; 
+    }
+    #video{
+        height: 60%; 
+        width: 50%; 
+    }
+    .text{
+        display: inline-block;
+        font-size: 20px; 
+        letter-spacing: 1px; 
+        width: 50%;
+    }
+    
+    #contact{
+        height: 200px;
+    }
+    #contact-text{
+        font-size: 20px; 
+    }
+    #email{
+        border: 1px black solid; 
+        height: 40px;
+        width: 250px;
+         
+    }
+}
